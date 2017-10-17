@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'users/new'
+
   root 'static_pages#home'
   # as:でもルーティングできるがhelf_pathにしないとできない
   # get  '/help', to: 'static_pages#help', as: 'helf'
